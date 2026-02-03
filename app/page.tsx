@@ -99,7 +99,16 @@ export default function Home() {
       {/* WHATSAPP GLOW BUTTON */}
       <a
         href="https://wa.me/905458875123?text=Merhaba,%20Bailando%20için%20rezervasyon%20yapmak%20istiyorum."
-        className="fixed bottom-6 right-6 z-50 p-4 rounded-full whatsapp-glow"
+        style={{
+  position: "fixed",
+  bottom: "24px",
+  right: "24px",
+  padding: "16px",
+  borderRadius: "50%",
+  zIndex: 50
+}}
+className="whatsapp-glow"
+
         aria-label="WhatsApp Rezervasyon"
       >
         💬
