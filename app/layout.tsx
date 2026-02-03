@@ -1,4 +1,5 @@
 import "./globals.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -10,10 +11,11 @@ export default function RootLayout({
         <title>Bailando Music & Dance Bar | Latin Club Mersin</title>
         <meta
           name="description"
-          content="Mersin Yenişehir'de Latin dans, canlı müzik ve gece eğlencesi. Bailando Music & Dance Bar."
+          content="Mersin Yenişehir'de Latin dans, canlı müzik ve gece eğlencesi."
         />
       </head>
-      <body className="bg-black text-white">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
+
